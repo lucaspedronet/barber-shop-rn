@@ -31,3 +31,19 @@ export const SubTitle = styled.Text`
   text-align: center;
   color: ${({theme}) => theme.COLORS.NEUTRAL_DARKER};
 `;
+
+export const ForgotPassword = styled.Text`
+  font-size: 18px;
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22.6px;
+  color: ${({theme}) => theme.COLORS.WHITE};
+`;
+
+export const Form = styled.View`
+  align-items: center;
+
+  width: 100%;
+  gap: 24px;
+`;
