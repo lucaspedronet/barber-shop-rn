@@ -5,6 +5,8 @@ export const Container = styled.View`
   align-items: center;
   justify-content: center;
 
+  padding: 0 24px;
+
   background-color: ${({theme}) => theme.COLORS.NEUTRAL_DARK};
 `;
 
@@ -30,6 +32,8 @@ export const SubTitle = styled.Text`
   line-height: 19.8px;
   text-align: center;
   color: ${({theme}) => theme.COLORS.NEUTRAL_DARKER};
+
+  margin-bottom: 40px;
 `;
 
 export const ForgotPassword = styled.Text`
